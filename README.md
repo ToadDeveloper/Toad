@@ -1,4 +1,3 @@
-# Toad 11 Update With Jenkins
-# Now With Polling from Jenkins
-# Now with project chain!
-#quick update dfdsfsdf
+# Toad update with Jenkins
+# Now with polling from Jenkins
+# Now with project chain
