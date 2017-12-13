@@ -26,7 +26,7 @@ BEGIN
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-       RETURN null;
+       null;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
