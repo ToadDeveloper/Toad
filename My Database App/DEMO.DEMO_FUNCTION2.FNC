@@ -10,7 +10,7 @@ tmpVar NUMBER;
    1.4        7/2/2017   MATHEW PHAN          1. Created this function.
 
 
-   NOTES:
+   NOTES: Hello
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
