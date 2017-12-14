@@ -1,0 +1,873 @@
+﻿<QCTO_EXPORT>
+  <QCTO_EXPORT_HEADER>
+    <QCTO_VERSION>3.2.0.19</QCTO_VERSION>
+    <TIMESTAMP_FORMAT>YYYY-MM-DD"T"HH24:MI:SS</TIMESTAMP_FORMAT>
+    <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+    <CREATED_BY>DEMO</CREATED_BY>
+    <EXPORT_TYPE>HARNESS</EXPORT_TYPE>
+    <TEST_NAME>Test For DEMO_FUNCTION2</TEST_NAME>
+    <TEST_CREATED_BY>DEMO</TEST_CREATED_BY>
+    <TEST_GUID>{DE0E058D-3812-41BC-922F-C360ED7EBD38}</TEST_GUID>
+  </QCTO_EXPORT_HEADER>
+  <TEST_DEFINITIONS>
+    <QU_HARNESS>
+      <COLUMNS>
+        <UNIVERSAL_ID>{DE0E058D-3812-41BC-922F-C360ED7EBD38}</UNIVERSAL_ID>
+        <HARNESS_OWNER>DEMO</HARNESS_OWNER>
+        <NAME>Q##DEMO_FUNCTION2</NAME>
+        <DESCRIPTION/>
+        <TEST_ENGINE_TYPE>QuestCodeTesterOracle</TEST_ENGINE_TYPE>
+        <HARNESS_TYPE>PACKAGE</HARNESS_TYPE>
+        <PROGRAM_OWNER>DEMO</PROGRAM_OWNER>
+        <PROGRAM_NAME>DEMO_FUNCTION2</PROGRAM_NAME>
+        <PROGRAM_TYPE>FUNCTION</PROGRAM_TYPE>
+        <PREFIX>Q##</PREFIX>
+        <SUFFIX/>
+        <IS_TEST_HARNESS>N</IS_TEST_HARNESS>
+        <EXT_SETUP_CODE/>
+        <EXT_TEARDOWN_CODE/>
+        <SPEC_CODE/>
+        <BODY_CODE/>
+        <IS_EXAMPLE>Y</IS_EXAMPLE>
+        <DEFINITION_STATUS>Under Development</DEFINITION_STATUS>
+        <CREATED_BY>DEMO</CREATED_BY>
+        <CHANGED_BY>DEMO</CHANGED_BY>
+        <CREATED_ON>2017-12-13T22:34:02</CREATED_ON>
+        <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+        <DECLARATIONS/>
+        <SETUP_CODE/>
+        <TEARDOWN_CODE/>
+        <IS_LOCKED>N</IS_LOCKED>
+        <EXT_TC_EXEC_CODE/>
+        <LAST_RUN_STATUS/>
+        <LAST_RUN_ON/>
+        <PROGRAM_STATUS>VALID</PROGRAM_STATUS>
+        <TEST_CODE_STATUS>NOTFOUND</TEST_CODE_STATUS>
+        <TEST_CODE_CURRENT>NOTFOUND</TEST_CODE_CURRENT>
+        <TEST_DEFINITION_CURRENT>CURRENT</TEST_DEFINITION_CURRENT>
+        <DECLARE_PROGRAMS/>
+        <PRIVATE_DECLARATIONS/>
+        <PRIVATE_DECLARE_PROGRAMS/>
+        <INVOKER_RIGHTS/>
+        <PROFILE_EXECUTION>N</PROFILE_EXECUTION>
+        <USE_NAMED_NOTATION>Y</USE_NAMED_NOTATION>
+        <RANDOM_EXECUTION>N</RANDOM_EXECUTION>
+        <ATTRIBUTE_COUNT/>
+        <METHODS_COUNT/>
+        <PREDEFINED/>
+        <INCOMPLETE/>
+        <FINAL/>
+        <INSTANTIABLE/>
+        <SUPERTYPE_OWNER/>
+        <SUPERTYPE_NAME/>
+        <TEST_NAME>Test For DEMO_FUNCTION2</TEST_NAME>
+        <CREATED_WITH_VERSION>3.2.0.19</CREATED_WITH_VERSION>
+      </COLUMNS>
+      <TEST_DATA_GROUPS/>
+      <OT_ATTRIBUTES/>
+      <UNIT_TESTS>
+        <QU_UNIT_TEST>
+          <COLUMNS>
+            <UNIVERSAL_ID>{9F02F406-CB7A-4FA6-B7E1-61FBDB093394}</UNIVERSAL_ID>
+            <HARNESS_GUID>{DE0E058D-3812-41BC-922F-C360ED7EBD38}</HARNESS_GUID>
+            <NAME>DEMO_FUNCTION2 (Function)</NAME>
+            <DESCRIPTION>
+              <![CDATA[Unit test for "DEMO_FUNCTION2"]]>
+            </DESCRIPTION>
+            <PROGRAM_NAME>DEMO_FUNCTION2</PROGRAM_NAME>
+            <PROGRAM_TYPE>FUNCTION</PROGRAM_TYPE>
+            <OVERLOAD/>
+            <UT_PROGRAM_NAME>Q##DEMO_FUNCTION2</UT_PROGRAM_NAME>
+            <TESTING_STATUS>Y</TESTING_STATUS>
+            <EXCEPTION_ON_FAILURE/>
+            <CREATED_BY>DEMO</CREATED_BY>
+            <CHANGED_BY>DEMO</CHANGED_BY>
+            <CREATED_ON>2017-12-13T22:34:03</CREATED_ON>
+            <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+            <DECLARATIONS/>
+            <SETUP_CODE/>
+            <TEARDOWN_CODE/>
+            <EXCEPTIONS/>
+            <DECLARE_PROGRAMS/>
+            <CONDITIONAL_EXECUTION/>
+            <PROFILE_EXECUTION>N</PROFILE_EXECUTION>
+            <RANDOM_EXECUTION>N</RANDOM_EXECUTION>
+            <METHOD_NAME/>
+            <METHOD_NO/>
+            <METHOD_TYPE/>
+            <METHOD_DESCRIPTOR/>
+            <PARAMETERS/>
+            <RESULTS/>
+            <FINAL/>
+            <INSTANTIABLE/>
+            <OVERRIDING/>
+            <INHERITED/>
+            <START_LINE/>
+            <END_LINE/>
+            <CODE_COVERAGE_GOAL/>
+            <EXECUTION_ORDER>1</EXECUTION_ORDER>
+            <LAST_RUN_ON/>
+            <LAST_RUN_STATUS/>
+            <PROGRAM_SOURCE>
+              <![CDATA[CREATE OR REPLACE FUNCTION DEMO_FUNCTION2
+   RETURN NUMBER
+IS
+   tmpVar   NUMBER;
+/******************************************************************************
+   NAME:       DEMO_FUNCTION
+   PURPOSE:
+
+   REVISIONS:
+   Ver        Date        Author           Description
+   ---------  ----------  ---------------  ------------------------------------
+   1.4        7/2/2017   MATHEW PHAN          1. Created this function.
+
+
+   NOTES: Hello
+
+   Automatically available Auto Replace Keywords:
+      Object Name:     DEMO_FUNCTION
+      Sysdate:         7/2/2017
+      Date and Time:   7/2/2017, 6:32:19 AM, and 7/2/2017 6:32:19 AM
+      Username:        DEMO (set in TOAD Options, Procedure Editor)
+      Table Name:       (set in the "New PL/SQL Object" dialog)
+
+******************************************************************************/
+BEGIN
+   tmpVar := 1;
+   RETURN tmpVar;
+EXCEPTION
+   WHEN NO_DATA_FOUND
+   THEN
+      NULL;
+   WHEN OTHERS
+   THEN
+      -- Consider logging the error and then re-raise
+      RAISE;
+END DEMO_FUNCTION2;]]>
+            </PROGRAM_SOURCE>
+          </COLUMNS>
+          <TEST_ELEMENTS>
+            <QU_TEST_ELEMENT>
+              <COLUMNS>
+                <UNIVERSAL_ID>{27C27F79-A78E-45D7-95CE-70495FBCA464}</UNIVERSAL_ID>
+                <UNIT_TEST_GUID>{9F02F406-CB7A-4FA6-B7E1-61FBDB093394}</UNIT_TEST_GUID>
+                <NAME>[Function return value]</NAME>
+                <DATA_TYPE_GUID>{6E220447-86F7-4FEB-98D1-B87DA082FC6A}</DATA_TYPE_GUID>
+                <DATA_TYPE_NAME>NUMBER</DATA_TYPE_NAME>
+                <DESCRIPTION>Test element for "[Function return value]"</DESCRIPTION>
+                <DEFINITION/>
+                <DEFAULT_VALUE>
+                  <![CDATA[NULL]]>
+                </DEFAULT_VALUE>
+                <EXTERNAL_VALUE/>
+                <DP_DATATYPE>
+                  <![CDATA[<TYPE_SPEC guid="{9FD2405D-03A1-498F-A43A-44273547285F}"><NAME VALUE="NUMBER"><IDENTIFIER>NUMBER</IDENTIFIER></NAME><DECLARE>NUMBER</DECLARE><VAR_NAME>Q##function_return_value</VAR_NAME><GROUP>BUILT-IN</GROUP><LEVEL>GLOBAL</LEVEL><SUPPORTED>True</SUPPORTED></TYPE_SPEC>]]>
+                </DP_DATATYPE>
+                <IS_EXPRESSION>Y</IS_EXPRESSION>
+                <HAS_DEFAULT_VALUE>N</HAS_DEFAULT_VALUE>
+                <ASSIGN_IN_SETUP>N</ASSIGN_IN_SETUP>
+                <ELEMENT_TYPE>RETURN</ELEMENT_TYPE>
+                <POSITION>0</POSITION>
+                <ARGUMENT_MODE>OUT</ARGUMENT_MODE>
+                <ARGUMENT_ALIAS>Q##FUNCTION_RETURN_VALUE</ARGUMENT_ALIAS>
+                <CONTROL_ALIAS/>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:34:03</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+                <PARAM_TYPE_MOD/>
+                <PARAM_TYPE_OWNER/>
+                <PARAM_TYPE_NAME/>
+                <CHARACTER_SET_NAME/>
+              </COLUMNS>
+              <ATTRIBUTES>
+                <QU_ATTRIBUTES>
+                  <COLUMNS>
+                    <PARENT_GUID>{27C27F79-A78E-45D7-95CE-70495FBCA464}</PARENT_GUID>
+                    <USAGE_TYPE>DEFAULT</USAGE_TYPE>
+                    <INTERNAL_VALUE/>
+                    <EXTERNAL_VALUE/>
+                    <IS_EXPRESSION>N</IS_EXPRESSION>
+                    <VALUE1_IS_EXPR>N</VALUE1_IS_EXPR>
+                    <VALUE2_IS_EXPR>N</VALUE2_IS_EXPR>
+                    <VALUE3_IS_EXPR>N</VALUE3_IS_EXPR>
+                    <VALUE4_IS_EXPR>N</VALUE4_IS_EXPR>
+                    <VALUE5_IS_EXPR>N</VALUE5_IS_EXPR>
+                    <VALUE6_IS_EXPR>N</VALUE6_IS_EXPR>
+                    <TEST_ELEMENT_GUID>{27C27F79-A78E-45D7-95CE-70495FBCA464}</TEST_ELEMENT_GUID>
+                    <ASSIGN_IN_SETUP>N</ASSIGN_IN_SETUP>
+                    <ARGUMENT_ALIAS/>
+                    <NO_LOCAL_DECLARATION>N</NO_LOCAL_DECLARATION>
+                    <OT_ATTRIBUTE_GUID/>
+                    <CREATED_BY>DEMO</CREATED_BY>
+                    <CHANGED_BY>DEMO</CHANGED_BY>
+                    <CREATED_ON>2017-12-13T22:34:03</CREATED_ON>
+                    <CHANGED_ON>2017-12-13T22:34:03</CHANGED_ON>
+                    <DATATYPE_DECLARE>NUMBER</DATATYPE_DECLARE>
+                    <VALUE1/>
+                    <VALUE2/>
+                    <VALUE3/>
+                    <VALUE4/>
+                    <VALUE5/>
+                    <VALUE6/>
+                    <DP_VALUE>
+                      <![CDATA[<NULL></NULL>]]>
+                    </DP_VALUE>
+                  </COLUMNS>
+                </QU_ATTRIBUTES>
+              </ATTRIBUTES>
+            </QU_TEST_ELEMENT>
+          </TEST_ELEMENTS>
+          <TEST_CASES>
+            <QU_TEST_CASE>
+              <COLUMNS>
+                <UNIVERSAL_ID>{0E66030B-4FB6-475F-96FA-5B9AA8B78C8A}</UNIVERSAL_ID>
+                <UNIT_TEST_GUID>{9F02F406-CB7A-4FA6-B7E1-61FBDB093394}</UNIT_TEST_GUID>
+                <NAME>Output is zero</NAME>
+                <TESTING_STATUS>Y</TESTING_STATUS>
+                <PROGRAM_NAME>Q##OUTPUT_IS_ZERO</PROGRAM_NAME>
+                <EXCEPTION_ON_FAILURE/>
+                <DESCRIPTION/>
+                <REQUIREMENT/>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:34:28</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+                <DECLARATIONS/>
+                <SETUP_CODE/>
+                <PRE_EXECUTION_CODE/>
+                <POST_EXECUTION_CODE/>
+                <ALT_EXECUTION_CODE/>
+                <ASSERTION_CODE/>
+                <TEARDOWN_CODE/>
+                <DECLARE_PROGRAMS/>
+                <CONDITIONAL_EXECUTION/>
+                <EXCEPTIONS/>
+                <PARAMETER_HASH_LIST/>
+                <GENERATED_ON/>
+                <IS_SIMPLE>N</IS_SIMPLE>
+                <CODE_LOCATION/>
+                <GENERATION_TAG/>
+                <IS_DYNAMIC>N</IS_DYNAMIC>
+                <CORRELATE_VALUES>Y</CORRELATE_VALUES>
+                <RUN_WHEN_UT_FAILS>Y</RUN_WHEN_UT_FAILS>
+                <ROLLBACK_BEFORE>Y</ROLLBACK_BEFORE>
+                <ROLLBACK_AFTER>Y</ROLLBACK_AFTER>
+                <COMMIT_BEFORE>N</COMMIT_BEFORE>
+                <COMMIT_AFTER>N</COMMIT_AFTER>
+                <PROFILE_EXECUTION>N</PROFILE_EXECUTION>
+                <EXECUTION_ORDER>1</EXECUTION_ORDER>
+                <LAST_RUN_ON/>
+                <LAST_RUN_STATUS/>
+              </COLUMNS>
+              <INPUTS/>
+              <OUTCOMES>
+                <QU_OUTCOME>
+                  <COLUMNS>
+                    <UNIVERSAL_ID>{5B59804B-1FCE-45B7-AC38-32067414309F}</UNIVERSAL_ID>
+                    <TEST_CASE_GUID>{0E66030B-4FB6-475F-96FA-5B9AA8B78C8A}</TEST_CASE_GUID>
+                    <ASSERTION_TYPE_GUID>{43E3B49A-0877-4F51-9526-DCBF345F1563}</ASSERTION_TYPE_GUID>
+                    <NULL_OK>Y</NULL_OK>
+                    <RAISE_EXCEPTION>N</RAISE_EXCEPTION>
+                    <CUSTOM_ASSERT_ONLY>N</CUSTOM_ASSERT_ONLY>
+                    <NAME>Scalar is equal to the expected value?</NAME>
+                    <TESTING_STATUS>Y</TESTING_STATUS>
+                    <LAST_RUN_ON/>
+                    <LAST_RUN_STATUS/>
+                    <CREATED_BY>DEMO</CREATED_BY>
+                    <CHANGED_BY>DEMO</CHANGED_BY>
+                    <CREATED_ON>2017-12-13T22:34:28</CREATED_ON>
+                    <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+                    <TEMPLATE_GUID>{25499982-A764-42F8-9A6F-C3E416CD3655}</TEMPLATE_GUID>
+                    <DESCRIPTION/>
+                    <ASSERTION_CODE/>
+                    <CODE_LOCATION/>
+                    <DECLARE_PROGRAMS/>
+                    <SETUP_CODE/>
+                    <TEARDOWN_CODE/>
+                    <COLUMN_SET_GUID/>
+                    <INTVAL_HDR_GUID/>
+                    <OT_ATTRIBUTE_GUID/>
+                    <USER_EXTENSION/>
+                  </COLUMNS>
+                  <ATTRIBUTES>
+                    <QU_ATTRIBUTES>
+                      <COLUMNS>
+                        <PARENT_GUID>{5B59804B-1FCE-45B7-AC38-32067414309F}</PARENT_GUID>
+                        <USAGE_TYPE>RESULT</USAGE_TYPE>
+                        <INTERNAL_VALUE/>
+                        <EXTERNAL_VALUE>
+                          <![CDATA[NULL]]>
+                        </EXTERNAL_VALUE>
+                        <IS_EXPRESSION>N</IS_EXPRESSION>
+                        <VALUE1_IS_EXPR>N</VALUE1_IS_EXPR>
+                        <VALUE2_IS_EXPR>N</VALUE2_IS_EXPR>
+                        <VALUE3_IS_EXPR>N</VALUE3_IS_EXPR>
+                        <VALUE4_IS_EXPR>N</VALUE4_IS_EXPR>
+                        <VALUE5_IS_EXPR>N</VALUE5_IS_EXPR>
+                        <VALUE6_IS_EXPR>N</VALUE6_IS_EXPR>
+                        <TEST_ELEMENT_GUID>{27C27F79-A78E-45D7-95CE-70495FBCA464}</TEST_ELEMENT_GUID>
+                        <ASSIGN_IN_SETUP>N</ASSIGN_IN_SETUP>
+                        <ARGUMENT_ALIAS>Q##function_return_value</ARGUMENT_ALIAS>
+                        <NO_LOCAL_DECLARATION>N</NO_LOCAL_DECLARATION>
+                        <OT_ATTRIBUTE_GUID/>
+                        <CREATED_BY>DEMO</CREATED_BY>
+                        <CHANGED_BY>DEMO</CHANGED_BY>
+                        <CREATED_ON>2017-12-13T22:34:28</CREATED_ON>
+                        <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+                        <DATATYPE_DECLARE>NUMBER</DATATYPE_DECLARE>
+                        <VALUE1/>
+                        <VALUE2/>
+                        <VALUE3/>
+                        <VALUE4/>
+                        <VALUE5/>
+                        <VALUE6/>
+                        <DP_VALUE>
+                          <![CDATA[<NULL></NULL>]]>
+                        </DP_VALUE>
+                      </COLUMNS>
+                    </QU_ATTRIBUTES>
+                    <QU_ATTRIBUTES>
+                      <COLUMNS>
+                        <PARENT_GUID>{5B59804B-1FCE-45B7-AC38-32067414309F}</PARENT_GUID>
+                        <USAGE_TYPE>CONTROL</USAGE_TYPE>
+                        <INTERNAL_VALUE>
+                          <![CDATA[0]]>
+                        </INTERNAL_VALUE>
+                        <EXTERNAL_VALUE>
+                          <![CDATA[0]]>
+                        </EXTERNAL_VALUE>
+                        <IS_EXPRESSION>N</IS_EXPRESSION>
+                        <VALUE1_IS_EXPR>N</VALUE1_IS_EXPR>
+                        <VALUE2_IS_EXPR>N</VALUE2_IS_EXPR>
+                        <VALUE3_IS_EXPR>N</VALUE3_IS_EXPR>
+                        <VALUE4_IS_EXPR>N</VALUE4_IS_EXPR>
+                        <VALUE5_IS_EXPR>N</VALUE5_IS_EXPR>
+                        <VALUE6_IS_EXPR>N</VALUE6_IS_EXPR>
+                        <TEST_ELEMENT_GUID>{27C27F79-A78E-45D7-95CE-70495FBCA464}</TEST_ELEMENT_GUID>
+                        <ASSIGN_IN_SETUP>N</ASSIGN_IN_SETUP>
+                        <ARGUMENT_ALIAS>e_Function_return_value</ARGUMENT_ALIAS>
+                        <NO_LOCAL_DECLARATION>N</NO_LOCAL_DECLARATION>
+                        <OT_ATTRIBUTE_GUID/>
+                        <CREATED_BY>DEMO</CREATED_BY>
+                        <CHANGED_BY>DEMO</CHANGED_BY>
+                        <CREATED_ON>2017-12-13T22:34:28</CREATED_ON>
+                        <CHANGED_ON>2017-12-13T22:34:28</CHANGED_ON>
+                        <DATATYPE_DECLARE>NUMBER</DATATYPE_DECLARE>
+                        <VALUE1/>
+                        <VALUE2/>
+                        <VALUE3/>
+                        <VALUE4/>
+                        <VALUE5/>
+                        <VALUE6/>
+                        <DP_VALUE>
+                          <![CDATA[<CONTROL name="[Function return value]"><VALUES><VALUE guid="{9FD2405D-03A1-498F-A43A-44273547285F}"><USE_DEFAULT_VALUE>False</USE_DEFAULT_VALUE><INTERNAL_VALUE>0</INTERNAL_VALUE><EXTERNAL_VALUE>0</EXTERNAL_VALUE><IS_NULL>False</IS_NULL><IS_EXPRESSION>False</IS_EXPRESSION><INTVAL_HDR_GUID/></VALUE></VALUES></CONTROL>]]>
+                        </DP_VALUE>
+                      </COLUMNS>
+                    </QU_ATTRIBUTES>
+                  </ATTRIBUTES>
+                </QU_OUTCOME>
+              </OUTCOMES>
+              <CODE_COVERAGE/>
+            </QU_TEST_CASE>
+          </TEST_CASES>
+        </QU_UNIT_TEST>
+      </UNIT_TESTS>
+      <SOURCE_CODE_SNAPSHOT>
+        <QU_SOURCE_CODE_HDR>
+          <COLUMNS>
+            <UNIVERSAL_ID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</UNIVERSAL_ID>
+            <HARNESS_GUID>{DE0E058D-3812-41BC-922F-C360ED7EBD38}</HARNESS_GUID>
+            <CREATED_BY>DEMO</CREATED_BY>
+            <CHANGED_BY>DEMO</CHANGED_BY>
+            <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+            <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+            <TEMPLATE_GUID/>
+          </COLUMNS>
+          <SOURCE_CODE_LINES>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>1</LINE>
+                <TEXT>
+                  <![CDATA[FUNCTION      DEMO_FUNCTION2 RETURN NUMBER IS
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>2</LINE>
+                <TEXT>
+                  <![CDATA[tmpVar NUMBER;
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>3</LINE>
+                <TEXT>
+                  <![CDATA[/******************************************************************************
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>4</LINE>
+                <TEXT>
+                  <![CDATA[   NAME:       DEMO_FUNCTION
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>5</LINE>
+                <TEXT>
+                  <![CDATA[   PURPOSE:    
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>6</LINE>
+                <TEXT>
+                  <![CDATA[
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>7</LINE>
+                <TEXT>
+                  <![CDATA[   REVISIONS:
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>8</LINE>
+                <TEXT>
+                  <![CDATA[   Ver        Date        Author           Description
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>9</LINE>
+                <TEXT>
+                  <![CDATA[   ---------  ----------  ---------------  ------------------------------------
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>10</LINE>
+                <TEXT>
+                  <![CDATA[   1.4        7/2/2017   MATHEW PHAN          1. Created this function.
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>11</LINE>
+                <TEXT>
+                  <![CDATA[
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>12</LINE>
+                <TEXT>
+                  <![CDATA[
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>13</LINE>
+                <TEXT>
+                  <![CDATA[   NOTES: Hello
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>14</LINE>
+                <TEXT>
+                  <![CDATA[
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>15</LINE>
+                <TEXT>
+                  <![CDATA[   Automatically available Auto Replace Keywords:
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>16</LINE>
+                <TEXT>
+                  <![CDATA[      Object Name:     DEMO_FUNCTION
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>17</LINE>
+                <TEXT>
+                  <![CDATA[      Sysdate:         7/2/2017
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>18</LINE>
+                <TEXT>
+                  <![CDATA[      Date and Time:   7/2/2017, 6:32:19 AM, and 7/2/2017 6:32:19 AM
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>19</LINE>
+                <TEXT>
+                  <![CDATA[      Username:        DEMO (set in TOAD Options, Procedure Editor)
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>20</LINE>
+                <TEXT>
+                  <![CDATA[      Table Name:       (set in the "New PL/SQL Object" dialog)
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>21</LINE>
+                <TEXT>
+                  <![CDATA[
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>22</LINE>
+                <TEXT>
+                  <![CDATA[******************************************************************************/
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>23</LINE>
+                <TEXT>
+                  <![CDATA[BEGIN
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>24</LINE>
+                <TEXT>
+                  <![CDATA[   tmpVar := 1;
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>25</LINE>
+                <TEXT>
+                  <![CDATA[   RETURN tmpVar;
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>26</LINE>
+                <TEXT>
+                  <![CDATA[   EXCEPTION
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>27</LINE>
+                <TEXT>
+                  <![CDATA[     WHEN NO_DATA_FOUND THEN
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>28</LINE>
+                <TEXT>
+                  <![CDATA[       null;
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>29</LINE>
+                <TEXT>
+                  <![CDATA[     WHEN OTHERS THEN
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>30</LINE>
+                <TEXT>
+                  <![CDATA[       -- Consider logging the error and then re-raise
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>31</LINE>
+                <TEXT>
+                  <![CDATA[       RAISE;
+]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+            <QU_SOURCE_CODE>
+              <COLUMNS>
+                <HEADER_GUID>{7447A1E5-1C14-4B61-B6CE-570EF4933A03}</HEADER_GUID>
+                <TYPE>FUNCTION</TYPE>
+                <LINE>32</LINE>
+                <TEXT>
+                  <![CDATA[END DEMO_FUNCTION2;]]>
+                </TEXT>
+                <CREATED_BY>DEMO</CREATED_BY>
+                <CHANGED_BY>DEMO</CHANGED_BY>
+                <CREATED_ON>2017-12-13T22:35:21</CREATED_ON>
+                <CHANGED_ON>2017-12-13T22:35:21</CHANGED_ON>
+              </COLUMNS>
+            </QU_SOURCE_CODE>
+          </SOURCE_CODE_LINES>
+        </QU_SOURCE_CODE_HDR>
+      </SOURCE_CODE_SNAPSHOT>
+    </QU_HARNESS>
+  </TEST_DEFINITIONS>
+</QCTO_EXPORT>
