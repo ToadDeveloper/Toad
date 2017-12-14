@@ -7,10 +7,10 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   1.5        7/2/2017   MATHEW PHAN          1. Created this function.
+   1.5.1        7/2/2017   MATHEW PHAN          1. Created this function.
 
 
-   NOTES: Hello
+   NOTES:
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
