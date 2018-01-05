@@ -7,7 +7,7 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   1.5.4        7/2/2017   MATHEW PHAN          1. Created this function.
+   1.5.5        7/2/2017   MATHEW PHAN          1. Created this function.
 
 
    NOTES:
@@ -25,7 +25,7 @@ BEGIN
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-       RETURN null;
+       null;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
