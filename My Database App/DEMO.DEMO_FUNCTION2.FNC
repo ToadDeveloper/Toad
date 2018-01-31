@@ -31,5 +31,6 @@ BEGIN
        RAISE;
        
        -- inserito rigo 33
+       -- inserito rigo 34
 END DEMO_FUNCTION2;
 /
