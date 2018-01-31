@@ -29,5 +29,7 @@ BEGIN
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
+       
+       -- inserito rigo 33
 END DEMO_FUNCTION2;
 /
