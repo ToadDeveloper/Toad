@@ -7,7 +7,7 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   1.5.6        7/2/2017   MATHEW PHAN          1. Created this function.
+   1.5.5        7/2/2017   MATHEW PHAN          1. Created this function.
 
 
    NOTES:
@@ -27,11 +27,7 @@ BEGIN
      WHEN NO_DATA_FOUND THEN
        RETURN null;
      WHEN OTHERS THEN
-       -- Consider logging the error and then re-raise
+       -- Consider logging the error and then re-raise. fixed.
        RAISE;
-       
-       -- inserito rigo 33
-       -- inserito rigo 34
-       -- inserito rigo 35
 END DEMO_FUNCTION2;
 /
